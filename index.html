@@ -161,9 +161,19 @@
                     <div class="v30_28"></div>
                 </div>
                 <div class="v6_5">
-                    <div class="v6_7">
-                        <img src="images/FirstSlider.jpg" style="width:100%;
-                        height: 1650px;">
+                    <div class="slideshow-container">
+                        <div class="v6_7 fade">
+                            <img src="images/FirstSlider.jpg" style="width:100%;
+                            height: 1550px;">
+                        </div>
+                        <div class="v6_7 fade">
+                            <img src="images/SecondSlider.jpg" style="width:100%;
+                            height: 1300px;">
+                        </div>
+                        <div class="v6_7 fade">
+                            <img src="images/ThirdSlider.jpg" style="width:100%;
+                            height: 1300px;">
+                        </div>
                     </div>
                     <div class="v6_6"></div>
                     <span class="v6_8">#1</span>
@@ -182,11 +192,11 @@
                         </div>
                     </div>
                     <div class="v30_70">
-                        <a href="https://wa.me/+918606365297?text=Hi%20CamLens!%20I%20would%20like%20to%20hear%20more%20from%20you." target="_blank"><div class="v6_12"></div></a>
+                        <a href="https://wa.me/+917022258262?text=Hi%20CamLens!%20I%20would%20like%20to%20hear%20more%20from%20you." target="_blank"><div class="v6_12"></div></a>
                     </div>
                     <div class="v6_13"></div>
-                    <div class="v6_103"><img src="images/1.png"></div>
-                    <div class="v6_103_1"><img src="images/2.png"></div>
+                    <div class="v6_103"><a class="next" onclick="plusSlides(1)"><img src="images/1.png"></a></div>
+                    <div class="v6_103_1"><a class="prev" onclick="plusSlides(-1)"><img src="images/2.png"></div></a>
                     <div class="name"></div>
                     <span class="v6_92_A">
                         <img src="images/logo_Camlens.png" style="width: 120px;
@@ -198,10 +208,22 @@
                     <span class="v6_96">
                         Wedding photography is a specialized field of photography that captures the special moments and memories of a couple's big day. It is a crucial aspect of the wedding planning process.
                     </span>
-                    <div class="v6_97"></div>
-                    <div class="v6_98"></div>
-                    <div class="v6_100"></div>
-                    <a href="https://wa.me/+918606365297?text=Hi%20CamLens!%20I%20would%20like%20to%20hear%20more%20from%20you." target="_blank">
+                    <div class="v6_97">    
+                    <div style="text-align:left">
+                        <span class="dot" onclick="currentSlide(1)"></span>
+                    </div>
+                    </div>
+                    <div class="v6_98">
+                        <div style="text-align:left">
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                        </div>
+                    </div>
+                    <div class="v6_100">
+                        <div style="text-align:left">
+                            <span class="dot" onclick="currentSlide(3)"></span> 
+                        </div>
+                    </div>
+                    <a href="https://wa.me/+917022258262?text=Hi%20CamLens!%20I%20would%20like%20to%20hear%20more%20from%20you." target="_blank">
                         <span class="v6_101">
                             Get a
                             Quote
@@ -216,6 +238,34 @@
                 </div>
             </div>
             <div class="cursor"></div>
+            <script>
+                let slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  let i;
+                  let slides = document.getElementsByClassName("v6_7");
+                  let dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
               <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
               <script>
                 var cursor = document.querySelector('.cursor');
