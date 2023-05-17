@@ -635,6 +635,16 @@ body {
   left: 129px;
   overflow: hidden;
 }
+.category {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.images {
+  display: none;
+  list-style-type: none;
+  padding-left: 0;
+}
 .v30_62 {
   width: 345px;
   height: 345px;
