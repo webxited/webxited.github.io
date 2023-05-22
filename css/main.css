@@ -26,7 +26,6 @@ body {
 .v30_116 {
   width: 100%;
   height: 5150px;
-  background: url("../images/v30_116.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -287,7 +286,6 @@ body {
 .v30_75 {
   width: 110px;
   height: 110px;
-  background: url("../images/v30_75.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -333,7 +331,6 @@ body {
 .v30_84 {
   width: 50%;
   height: 50%;
-  background: url("../images/v30_84.png");
   opacity: 1;
   position: absolute;
   top: 0px;
@@ -366,7 +363,7 @@ body {
   top: 439px;
   left: 200px;
   font-family: Roboto Condensed;
-  font-weight: Bold;
+  font-weight: 900;
   font-size: 50px;
   opacity: 1;
   text-align: right;
@@ -1658,9 +1655,9 @@ body {
 }
 .v30_10 {
   width: 100%;
-  top: 200px;
+  top: 350px;
   left: 120px;
-  opacity: 0.5;
+  opacity: 0.3;
   font-size: 200px;
   color: transparent;
   -webkit-text-stroke-width: 2px;
@@ -1683,7 +1680,7 @@ body {
 /*WORKS*/
 .v30_29 {
   width: 100%;
-  height: 335vh;
+  height: 330vh;
   top: 200vh;
 }
 .v30_39 {
@@ -1698,7 +1695,7 @@ body {
 }
 .v30_36_A {
   width: 100%;
-  top: 101px;
+  top: 62px;
   left: 200px;
   font-size: 35px;
 }
@@ -1796,11 +1793,19 @@ body {
   top: 500px;
   left: 50px;
 }
+.v30_67 img{
+  width: 100% !important;
+  height: 100% !important;
+}
 .v30_63 {
   width: 80%;
   height: 40vh;
   top: 825px;
   left: 50px;
+}
+.v30_63 img{
+  width: 100% !important;
+  height: 100% !important;
 }
 .v30_65 {
   width: 80%;
@@ -1808,11 +1813,19 @@ body {
   top: 1150px;
   left: 50px;
 }
+.v30_65 img{
+  width: 100% !important;
+  height: 100% !important;
+}
 .v30_66 {
   width: 80%;
   height: 40vh;
   top: 1475px;
   left: 50px;
+}
+.v30_66 img{
+  width: 100% !important;
+  height: 100% !important;
 }
 .v30_62 {
   width: 80%;
@@ -1820,27 +1833,180 @@ body {
   top: 1800px;
   left: 50px;
 }
+.v30_62 img{
+  width: 100% !important;
+  height: 100% !important;
+}
 .v30_68 {
   width: 80%;
   height: 40vh;
   top: 2125px;
   left: 50px;
 }
+.v30_68 img{
+  width: 100% !important;
+  height: 100% !important;
+}
 .v30_69 {
   width: 25px;
   height: 25px;
-  top: 2398px;
-  left: 301px;
+  top: 2405px;
+  left: 310px;
 }
 
 
 /*SERVICES*/
 .v30_71 {
   width: 100%;
-  height: 100vh;
-  top: 535vh;
+  height: 90vh;
+  top: 530vh;
 }
 .v30_81 {
   width: 25px;
+}
+.v30_93 {
+  width: 1028px;
+  height: 1028px;
+  opacity: 1;
+  position: absolute;
+  top: 200px;
+  left: 75px;
+  border-radius: 50%;
+  opacity:0.3;
+}
+.v30_93 img {
+  width: 50% !important;
+  height: 50% !important;
+}
+.v30_93_A {
+  display:none;
+}
+.v30_73 {
+  width: 300px;
+  color: transparent;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  font-size: 150px;
+  opacity:.5;
+  transform: rotate(90deg);
+}
+.v30_75 {
+  width: 80px;
+  height: 80px;
+  top: 47px;
+  left: 50px;
+  overflow: hidden;
+}
+.v30_76 {
+  width: 80px;
+  height: 80px;
+}
+.v30_77 {
+  width: 70px;
+  top: 32.5px;
+  left: 8px;
+  font-size: 15px;
+}
+.v30_86 {
+  width: 200px;
+  top: 200px;
+  left: 50px;
+  font-size: 30px;
+}
+.v30_92 {
+  width: 80px;
+  height: 80px;
+  top: 550px;
+  left: 80px;
+}
+
+
+/*FOOTER*/
+.v30_94 {
+  height: 80vh;
+  top: 620vh;
+}
+.v41_4 {
+  width: 25px;
+}
+.v30_95 {
+  width: 100px;
+  top: 20px;
+  left: 100px;
+  font-size: 80px;
+}
+.v30_95_A {
+  width: 100px;
+  top: 90px;
+  left: 225px;
+  font-size: 80px;
+}
+.v30_95_B {
+  width: 100px;
+  top: 160px;
+  left: 210px;
+  font-size: 80px;
+}
+.v30_100 {
+  width: 280px;
+  height: 150px;
+  top: 270px;
+  left: 50px;
+  border: 5px solid #333333;
+}
+.v30_104 {
+  width: 250px;
+  top: 430px;
+  left: 80px;
+  font-size: 16px;
+}
+.v30_105 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 50px;
+}
+.v30_106 {
+  width: 50px;
+  height: 50px;
+}
+.v30_107 {
+  width: 50px;
+  top: 19px;
+  left: 0px;
+  font-size: 7px;
+}
+.v30_108 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 110px;
+}
+.v30_109 {
+  width: 50px;
+  height: 50px;
+}
+.v30_110 {
+  width: 50px;
+  top: 19px;
+  left: 0px;
+  font-size: 7px;
+}
+.v30_111 {
+  width: 50px;
+  height: 50px;
+  top: 510px;
+  left: 170px;
+}
+.v30_112 {
+  width: 50px;
+  height: 50px;
+}
+.v30_113 {
+  width: 50px;
+  top: 19px;
+  left: 0px;
+  font-size: 7px;
 }
 }
