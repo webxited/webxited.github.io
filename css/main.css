@@ -1083,11 +1083,11 @@ body {
 }
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 2.5s;
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .8} 
   to {opacity: 1}
 }
 @media only screen and (max-width: 300px) {
@@ -1438,13 +1438,22 @@ body {
   left: 16px;
   border-radius: 50%;
 }
+
+
+
+/*MOBILE*/
+
 @media screen and (max-width: 900px) {
 .v6_6 {
   width: 25px;
+  position: absolute;
+}
+.v6_5 {
+  height: 100vh !important;
 }
 .v6_7 img{
-  width: 100% !important;
-  height: 1030px !important;
+  width: 110% !important;
+  height: 100vh !important;
   filter: saturate(0);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1454,34 +1463,38 @@ body {
   top: 0px;
   left: -55px;
 }
+.v6_7 {
+  width: 150% !important;
+  height: 100vh !important;
+}
  .v6_92 {
     width: 141px;
-    top: 120px;
+    top: 60px;
     left: 50px;
     font-size: 80px;
  }
  .v6_94 {
     width: 141px;
-    top: 190px;
+    top: 140px;
     left: 50px;
     font-size: 80px;
 }
 .v6_95 {
   width: 150px;
-  top: 280px;
+  top: 230px;
   left: 52px;
   font-size: 20px;
   letter-spacing: 6.5px;
 }
 .v6_96 {
   width: 200px;
-  top: 320px;
+  top: 270px;
   left: 50px;
   font-size: 12px;
 }
 .v6_8 {
   width: 200px;
-  top: 300px;
+  top: 200px;
   left: 130px;
   font-weight: 900;
   font-size: 300px;
@@ -1507,7 +1520,7 @@ body {
 }
 .v6_101 {
   width: 60px;
-  top: 65px;
+  top: 68px;
   left: 285px;
   font-size: 12px;
 }
@@ -1516,7 +1529,7 @@ body {
   height: 40px;
   opacity: 0.8;
   position: absolute;
-  top: 575px;
+  top: 425px;
   left: 300px;
 }
 .v6_103 img {
@@ -1529,7 +1542,7 @@ body {
   width: 40px;
   height: 40px;
   opacity: 0.8;
-  top: 625px;
+  top: 475px;
   left: 300px;
 }
 .v6_103_1 img {
@@ -1541,79 +1554,89 @@ body {
 .v6_9 {
   width: 180px !important;
   height: 90px; !important;
-  top: 700px;
+  top: 580px;
   left: 100px;
 }
 .v6_10 {
   width: 180px !important;
   height: 90px; !important;
-  top: 700px;
+  top: 580px;
   left: 300px;
 }
 .v6_97 {
-  width: 20px;
-  height: 20px;
-  top: 850px;
+  width: 15px !important;
+  height: 15px !important;
+  top: 700px;
   left: 50px;
 }
 .v6_98 {
   width: 20px;
   height: 20px;
-  top: 850px;
-  left: 100px;
+  top: 700px;
+  left: 80px;
 }
 .v6_100 {
   width: 20px;
   height: 20px;
-  top: 850px;
-  left: 150px;
-}
-.v6_121 {
-  width: 12px;
-  color: rgba(0,0,0,0.6700000166893005);
-  position: absolute;
   top: 700px;
-  left: 2px;
-  font-family: Poppins;
-  font-weight: ExtraBold;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
+  left: 110px;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+}
+.v6_121_B img{
+  width: 19px !important;
+  height: 22px !important;
+  top: 590px !important;
 }
 .v6_121_B {
-  width: 12px;
-  color: rgba(0,0,0,0.6700000166893005);
-  position: absolute;
-  top: 650px;
+  top: 590px !important;
+  left: 3px;
+}
+.v6_121 img {
+  width: 22px !important;
+  height: 22px !important;
+  top: 620px !important;
+}
+.v6_121 {
+  top: 620px !important;
   left: 2px;
-  font-family: Poppins;
-  font-weight: ExtraBold;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
+}
+.v6_122 img {
+  width: 20px !important;
+  height: 20px !important;
+  top: 650px !important;
 }
 .v6_122 {
-  width: 11px;
-  color: rgba(0,0,0,0.6700000166893005);
-  position: absolute;
-  top: 881px;
-  left: 15px;
-  font-family: Poppins;
-  font-weight: ExtraBold;
-  font-size: 36px;
-  opacity: 1;
-  text-align: center;
+  top: 650px !important;
+  left: 2px;
+}
+.v6_123 img {
+  width: 22px !important;
+  height: 22px !important;
+  top: 680px !important;
 }
 .v6_123 {
-  width: 14px;
-  color: rgba(0,0,0,0.6700000166893005);
+  top: 680px !important;
+  left: 2px;
+}
+.v6_92_A {
+  width: 60px !important;
+  height: 60px !important;
   position: absolute;
-  top: 937px;
-  left: 13px;
-  font-family: Poppins;
-  font-weight: ExtraBold;
-  font-size: 36px;
+  top: -15px;
+  left: 0px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
+}
+
+/*ABOUT*/
+.v30_2 {
+  height: 100vh;
+  top: 100vh;
+}
+.v30_28 {
+  width: 25px;
 }
 }
