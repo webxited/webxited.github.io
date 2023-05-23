@@ -1811,7 +1811,7 @@ body {
 .v30_65 {
   width: 80%;
   height: 296px !important;
-  top: 1190px;
+  top: 1140px;
   left: 50px;
 }
 .v30_65 img{
@@ -1821,7 +1821,7 @@ body {
 .v30_66 {
   width: 80%;
   height: 296px !important;
-  top: 1515px;
+  top: 1460px;
   left: 50px;
 }
 .v30_66 img{
@@ -1831,7 +1831,7 @@ body {
 .v30_62 {
   width: 80%;
   height: 296px !important;
-  top: 1840px;
+  top: 1780px;
   left: 50px;
 }
 .v30_62 img{
@@ -1841,7 +1841,7 @@ body {
 .v30_68 {
   width: 80%;
   height: 296px !important;
-  top: 2160px;
+  top: 2100px;
   left: 50px;
 }
 .v30_68 img{
@@ -1852,15 +1852,16 @@ body {
   width: 25px;
   height: 25px;
   top: 2405px;
-  left: 310px;
+  left: unset;
+  right: 50px !important;
 }
 .v30_31_G {
-  width: 550px;
-  height: 2405px;
-  top: 2405px;
+  width: 300px;
+  height: unset;
+  top: 2395px;
   right:unset;
   left: 50px;
-  font-size: 50px;
+  font-size: 40px;
   transform: unset;
 }
 
