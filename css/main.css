@@ -1416,17 +1416,19 @@ body {
 
 /*MOBILE*/
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 500px) {
 .v6_6 {
   width: 25px;
   position: absolute;
 }
 .v6_5 {
   height: 100vh !important;
+  min-height: 740px !important;
 }
 .v6_7 img{
   width: 110% !important;
   height: 100vh !important;
+  min-height: 740px !important;
   filter: saturate(0);
   background-repeat: no-repeat;
   background-position: center center;
@@ -1439,6 +1441,7 @@ body {
 .v6_7 {
   width: 150% !important;
   height: 100vh !important;
+  min-height: 740px !important;
 }
  .v6_92 {
     width: 141px;
@@ -1607,7 +1610,8 @@ body {
 /*ABOUT*/
 .v30_2 {
   height: 100vh;
-  top: 100vh;
+  min-height: 740px !important;
+  top: 740px;
 }
 .v30_28 {
   width: 25px;
@@ -1624,7 +1628,7 @@ body {
 }
 .v30_6 {
   width: 30px;
-  top: 26px;
+  top: 30px;
   left: 11px;
   font-size: 18px;
 }
@@ -1681,7 +1685,8 @@ body {
 .v30_29 {
   width: 100%;
   height: 330vh;
-  top: 200vh;
+  min-height: 2442px !important;
+  top: 1480px;
 }
 .v30_39 {
   width: 25px;
@@ -1719,7 +1724,7 @@ body {
 }
 .v30_42 {
   width: 25px;
-  top: 28px;
+  top: 30px;
   left: 28px;
   font-size: 14px;
 }
@@ -1735,8 +1740,8 @@ body {
 }
 .v30_45 {
   width: 25px;
-  top: 28px;
-  left: 6px;
+  top: 30px;
+  left: 7px;
   font-size: 14px;
 }
 .v30_46 {
@@ -1751,8 +1756,8 @@ body {
 }
 .v30_48 {
   width: 25px;
-  top: 28px;
-  left: 6px;
+  top: 30px;
+  left: 7px;
   font-size: 14px;
 }
 .v30_49 {
@@ -1767,7 +1772,7 @@ body {
 }
 .v30_51 {
   width: 25px;
-  top: 28px;
+  top: 30px;
   left: 17px;
   font-size: 14px;
 }
@@ -1783,13 +1788,14 @@ body {
 }
 .v30_90 {
   width: 25px;
-  top: 28px;
-  left: 10px;
+  top: 30px;
+  left: 11px;
   font-size: 14px;
 }
 .v30_67 {
   width: 80%;
   height: 40vh;
+  min-height: 296px !important;
   top: 500px;
   left: 50px;
 }
@@ -1799,8 +1805,8 @@ body {
 }
 .v30_63 {
   width: 80%;
-  height: 40vh;
-  top: 825px;
+  min-height: 296px !important;
+  top: 820px;
   left: 50px;
 }
 .v30_63 img{
@@ -1810,7 +1816,8 @@ body {
 .v30_65 {
   width: 80%;
   height: 40vh;
-  top: 1150px;
+  min-height: 296px !important;
+  top: 1190px;
   left: 50px;
 }
 .v30_65 img{
@@ -1820,7 +1827,8 @@ body {
 .v30_66 {
   width: 80%;
   height: 40vh;
-  top: 1475px;
+  min-height: 296px !important;
+  top: 1515px;
   left: 50px;
 }
 .v30_66 img{
@@ -1830,7 +1838,8 @@ body {
 .v30_62 {
   width: 80%;
   height: 40vh;
-  top: 1800px;
+  min-height: 296px !important;
+  top: 1840px;
   left: 50px;
 }
 .v30_62 img{
@@ -1840,7 +1849,8 @@ body {
 .v30_68 {
   width: 80%;
   height: 40vh;
-  top: 2125px;
+  min-height: 296px !important;
+  top: 2160px;
   left: 50px;
 }
 .v30_68 img{
@@ -1853,13 +1863,23 @@ body {
   top: 2405px;
   left: 310px;
 }
+.v30_31_G {
+  width: 550px;
+  height: 2405px;
+  top: 2405px;
+  right:unset;
+  left: 50px;
+  font-size: 50px;
+  transform: unset;
+}
 
 
 /*SERVICES*/
 .v30_71 {
   width: 100%;
   height: 90vh;
-  top: 530vh;
+  min-height: 666px !important;
+  top: 3922px;
 }
 .v30_81 {
   width: 25px;
@@ -1912,7 +1932,7 @@ body {
   width: 200px;
   top: 200px;
   left: 50px;
-  font-size: 30px;
+  font-size: 25px;
 }
 .v30_92 {
   width: 80px;
@@ -1925,47 +1945,54 @@ body {
 /*FOOTER*/
 .v30_94 {
   height: 80vh;
-  top: 620vh;
+  min-height: 592px !important;
+  top: 4588px;
 }
 .v41_4 {
   width: 25px;
 }
 .v30_95 {
-  width: 100px;
+  width: unset;
   top: 20px;
-  left: 100px;
+  left: unset;
+  right: 20px !important;
   font-size: 80px;
 }
 .v30_95_A {
-  width: 100px;
+  width: unset;
   top: 90px;
-  left: 225px;
+  left: unset;
+  right: 20px !important;
   font-size: 80px;
 }
 .v30_95_B {
-  width: 100px;
+  width: unset;
   top: 160px;
-  left: 210px;
+  left: unset;
+  right: 20px !important;
   font-size: 80px;
 }
 .v30_100 {
   width: 280px;
   height: 150px;
   top: 270px;
-  left: 50px;
+  left: unset;
+  right: 20px !important;
   border: 5px solid #333333;
 }
 .v30_104 {
   width: 250px;
   top: 430px;
-  left: 80px;
+  left: unset;
+  right: 20px !important;
   font-size: 16px;
 }
 .v30_105 {
   width: 50px;
   height: 50px;
-  top: 510px;
-  left: 50px;
+  top: 530px;
+  left: unset;
+  right: 20px !important;
 }
 .v30_106 {
   width: 50px;
@@ -1980,8 +2007,9 @@ body {
 .v30_108 {
   width: 50px;
   height: 50px;
-  top: 510px;
-  left: 110px;
+  top: 530px;
+  left: unset;
+  right: 80px !important;
 }
 .v30_109 {
   width: 50px;
@@ -1996,8 +2024,9 @@ body {
 .v30_111 {
   width: 50px;
   height: 50px;
-  top: 510px;
-  left: 170px;
+  top: 530px;
+  left: unset;
+  right: 140px !important;
 }
 .v30_112 {
   width: 50px;
@@ -2010,6 +2039,7 @@ body {
   font-size: 7px;
 }
 .v30_116 {
-  height: 700vh !important;
+  min-height: 5180px !important;
+  height: 700vh;
 }
 }
