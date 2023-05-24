@@ -1509,15 +1509,16 @@ body {
   -webkit-text-stroke-width: 4px;
 }
 .v30_70 {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
   top: 50px;
-  left: 280px;
+  left: unset;
+  right: 20px;
   overflow: hidden;
 }
 .v6_12 {
-  width: 68px;
-  height: 68px;
+  width: 70px;
+  height: 70px;
   background: rgba(85,133,117,1);
   opacity: 1;
   position: relative;
@@ -1526,9 +1527,10 @@ body {
   border-radius: 50%;
 }
 .v6_101 {
-  width: 60px;
+  width: 70px;
   top: 68px;
-  left: 285px;
+  left: unset;
+  right: 20px;
   font-size: 12px;
 }
 .v6_103 {
