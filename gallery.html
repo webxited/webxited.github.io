@@ -2,13 +2,16 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=0.1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />  
         <meta name="description" content="We capture your right moments.">
         <meta property="og:image" content="https://www.instagram.com/p/CBYcAwMjg46/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==">
         <link href="./css/main.css" rel="stylesheet" />
-        <title>Camlens Photography - Gallery</title>
+        <title>Camlens Photography</title>
     </head>
     <body>
+        <div id="preloader">
+            <div id="loader"></div>
+        </div>
         <div class="v6_5">
             <div class="slideshow-container">
                 <div class="v6_7 fade">
@@ -385,6 +388,17 @@
                 <div class="v41_4"></div>
             </div>
     <div class="cursor"></div>
+    <script>
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+              const preloader = document.getElementById("preloader");
+              preloader.style.display = "flex";
+            } else {
+              const preloader = document.getElementById("preloader");
+              preloader.style.display = "none";
+            }
+          };                  
+    </script>
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);

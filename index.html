@@ -401,7 +401,7 @@
                     <div class="v6_103_1"><a class="prev" onclick="plusSlides(-1)"><img src="images/2.png"></div></a>
                     <div class="name"></div>
                     <span class="v6_92_A">
-                        <img src="images/logo_Camlens.png" style="width: 120px;
+                        <img src="images/camlens new ylw.png" style="width: 120px;
                         height: 120px;">
                     </span>
                     <span class="v6_92">CAM</span>
@@ -441,6 +441,20 @@
                 </div>
             </div>
             <div class="cursor"></div>
+            <div id="preloader">
+                <div id="loader"></div>
+            </div>
+            <script>
+                document.onreadystatechange = function() {
+                    if (document.readyState !== "complete") {
+                      const preloader = document.getElementById("preloader");
+                      preloader.style.display = "flex";
+                    } else {
+                      const preloader = document.getElementById("preloader");
+                      preloader.style.display = "none";
+                    }
+                  };                  
+            </script>
             <script>
                 let slideIndex = 1;
                 showSlides(slideIndex);
@@ -482,29 +496,39 @@
                         }
                     }
                 </script>
-              <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-              <script>
-                var cursor = document.querySelector('.cursor');
-            
-                document.addEventListener('mousemove', function(e) {
-                  gsap.to(cursor, {
-                    x: e.clientX,
-                    y: e.clientY
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+                <script>
+                  var cursor = document.querySelector('.cursor');
+                
+                  function moveCursor(e) {
+                    gsap.to(cursor, {
+                      x: e.clientX,
+                      y: e.clientY
+                    });
+                  }
+                
+                  document.addEventListener('mousemove', moveCursor);
+                
+                  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                    document.addEventListener('touchmove', function(e) {
+                      var touch = e.touches[0];
+                      moveCursor(touch);
+                    });
+                  }
+                
+                  document.addEventListener('mouseenter', function() {
+                    gsap.to(cursor, {
+                      opacity: 1
+                    });
                   });
-                });
-            
-                document.addEventListener('mouseenter', function() {
-                  gsap.to(cursor, {
-                    opacity: 1
+                
+                  document.addEventListener('mouseleave', function() {
+                    gsap.to(cursor, {
+                      opacity: 0
+                    });
                   });
-                });
-            
-                document.addEventListener('mouseleave', function() {
-                  gsap.to(cursor, {
-                    opacity: 0
-                  });
-                });
-              </script>
+                </script>
+                
             <script>
                 function playFullscreen() {
                 var videoContainer = document.getElementById("video-container");
