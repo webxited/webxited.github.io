@@ -1521,9 +1521,9 @@ body {
   left: 50px;
   font-weight: 900;
   font-size: 400px;
-  opacity: 0.3;
+  opacity: 0.2;
   letter-spacing: -30px;
-  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-width: 2px;
 }
 .v30_70 {
   width: 70px;
